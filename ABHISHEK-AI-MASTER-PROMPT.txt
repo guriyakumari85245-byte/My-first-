@@ -1,0 +1,337 @@
+# ABHISHEK AI — Master Website-Building Prompt
+
+इसे ABHISHEK AI के **AI Website Builder** में paste करें। यह एक पूरा, polished और functional AI study platform बनाए।
+
+---
+
+## MASTER PROMPT
+
+Create a premium, fully functional AI education platform named:
+
+**ABHISHEK AI — Your Personal AI Study Partner**
+
+The creator branding must say:
+
+**Created by Abhishek**
+
+The product must feel like a helpful, intelligent AI assistant that understands normal human language. The user should not need to know HTML, CSS, JavaScript or programming. Do not return only explanations or code instructions. Build a working responsive website and show a live preview.
+
+## Core principle
+
+The platform must work with:
+
+- Any subject
+- Any class or grade
+- Any chapter
+- Any topic
+- Any language requested by the user
+- Any reasonable study question
+
+Do not hardcode only Science, SST, Cell or Photosynthesis examples. If the user enters a different chapter, the result must be generated from that exact input. For example, these must all work independently:
+
+- Magical Brush
+- A chapter from an NCERT book
+- Linear Equations
+- The Rise of the Marathas
+- English Grammar Tenses
+- Introduction to HTML
+- Any Hindi, Sanskrit, Computer Science or other chapter
+
+Never pretend that a file, image or question was understood if processing failed. Show a clear error and allow retry.
+
+## Visual design
+
+Create a polished premium futuristic interface:
+
+- Dark navy and black background
+- Electric blue and violet accent colors
+- Clean modern cards
+- Subtle gradients and glow effects
+- Readable typography
+- Strong spacing and hierarchy
+- Responsive desktop, tablet and mobile layouts
+- Mobile camera and gallery controls
+- Smooth but lightweight animations
+- Accessible contrast and visible focus states
+- No decorative button that does nothing
+
+The interface should look like a real AI product, not a static school template.
+
+## Main navigation
+
+Create these working sections:
+
+1. Workspace
+2. Notes AI
+3. Study Tools
+4. Photo Solver
+5. Document AI
+6. AI Tutor Chat
+7. AI Website Builder
+
+## 1. Notes AI
+
+Create a real AI notes generator with these inputs:
+
+- Topic or chapter name — required
+- Subject — free text plus common suggestions
+- Class or grade — free text
+- Language: English, Hindi or Hinglish
+- Length: Short, Detailed or Exam Revision
+- Optional textbook text/context
+
+The output must be specific to the exact user input and include where relevant:
+
+- Simple introduction
+- Definitions
+- Headings and subheadings
+- Important concepts
+- Examples
+- Step-by-step explanation
+- Diagrams or diagram descriptions where appropriate
+- Important exam questions with answers
+- Quick revision summary
+- Keywords
+- Memory tricks
+- Common mistakes
+
+A new topic must produce a new topic-specific response.
+
+## 2. Study Tools
+
+Add real working tools:
+
+- Quiz Generator
+- MCQ Generator
+- Flashcards
+- Important Questions
+- Chapter Summary
+- Practice Test
+- Answer Explainer
+- Revision Planner
+
+Each tool must use the exact selected subject, class, chapter, language and context. It must not return a generic or hardcoded sample.
+
+Include question count controls, answer keys and clear scoring where appropriate.
+
+## 3. AI Tutor Chat
+
+Create a natural AI tutor chat that behaves like a patient teacher:
+
+- Understand normal language
+- Remember current conversation context
+- Support follow-up questions
+- Explain difficult topics step by step
+- Use simple language for Class 8 students
+- Answer in English, Hindi or Hinglish
+- Include copy response
+- Include clear chat and new chat
+- Show loading, timeout, error and retry states
+- Never remain stuck on an infinite loading state
+
+If the user says “Who created you?”, answer accurately:
+
+**I was created for Abhishek’s ABHISHEK AI project. I am the AI study and website-building assistant inside ABHISHEK AI.**
+
+Do not falsely say that Google created this website.
+
+## 4. Photo Solver
+
+Create a working Photo Solver with both options:
+
+- Open Camera
+- Choose from Gallery
+
+Support:
+
+- JPG
+- JPEG
+- PNG
+- WEBP
+- Mobile camera capture
+- Gallery upload
+- Reasonable image uploads up to at least 20 MB
+- Safe resize/compression for very large images
+
+Use real vision/OCR processing to understand:
+
+- Textbook questions
+- Handwritten questions where readable
+- Diagrams
+- Maths problems
+- Science images
+
+For maths, show step-by-step working and verify the final result where possible.
+
+If the image is blurry, unsupported or unreadable, show a truthful error such as:
+
+**The image could not be read clearly. Please upload a sharper image or try again.**
+
+Do not remove camera or gallery support from any other relevant upload flow.
+
+## 5. Document AI
+
+Create a separate Document AI section that keeps PDF/document upload independent from Photo Solver.
+
+Support:
+
+- PDF upload
+- Document upload where supported
+- Scanned PDF with OCR where available
+- Full summary
+- Chapter-wise notes
+- Quiz generation
+- MCQ generation
+- Simple explanation of difficult paragraphs
+- Questions grounded in the uploaded document
+- Ask a question about the uploaded document
+
+Show clear limits and errors for unsupported, corrupt or unreadable files. Do not claim to have read a document if extraction failed.
+
+## 6. Image creation
+
+Inside AI Tutor Chat or a separate visible tool, add a real server-side **Create Image** action.
+
+If the user asks:
+
+- “Create an image of the Amazon River”
+- “Create a science diagram”
+- “Create a school project poster”
+- “Create any reasonable image”
+
+the AI should use the real image service and return the generated image. Do not merely describe the image. Show loading and a truthful error if generation fails.
+
+Keep image-generation credentials server-side. Never expose API keys in frontend code.
+
+## 7. AI Website Builder Agent
+
+This is the most important module.
+
+Create an AI Website Builder that feels like a helpful autonomous AI assistant. The user should write only normal language, for example:
+
+- “Create a calculator website.”
+- “Make a Class 8 science quiz website.”
+- “Build a portfolio for Abhishek.”
+- “Make a website about the Magical Brush chapter.”
+- “Add a timer and score to the quiz.”
+- “Make the background dark.”
+- “Fix the button that is not working.”
+
+The AI must:
+
+1. Understand the request
+2. Infer sensible missing details
+3. Plan the website
+4. Choose a suitable layout and style
+5. Build the website
+6. Add working interactions
+7. Test buttons, forms and core flows mentally or through available checks
+8. Show a live preview
+9. Preserve the same project context for follow-up edits
+10. Explain what was built in simple language
+
+Never ask the user to write HTML, CSS or JavaScript. Never reply with only code instructions. The user only describes the idea.
+
+Show visible progress states:
+
+- Understanding your idea
+- Planning the design
+- Writing the website
+- Testing buttons and fixing
+- Website ready
+
+The generated websites should support real interactions where relevant:
+
+- Calculators calculate
+- Forms validate
+- Navigation works
+- Quizzes score answers
+- Timers run
+- Search filters content
+- Buttons perform their labelled actions
+- Mobile layout responds properly
+
+Provide:
+
+- Live Preview tab
+- Code tab for users who want to inspect code
+- Syntax-highlighted editable files
+- Download HTML
+- Export ZIP
+- Open/import project
+- Rename project
+- New project
+- Duplicate project
+- Delete project
+- Project history/context
+- Share Preview Link
+
+Use a safe sandboxed iframe for generated previews. Never allow generated projects to access the parent application, cookies, API keys or private data.
+
+Generated previews must not use unsafe external scripts, hidden API keys or arbitrary network calls.
+
+## Project management
+
+Projects should:
+
+- Stay available after refresh on the same device/browser
+- Have clear project names
+- Preserve previous prompts and AI plans
+- Support iterative edits
+- Allow ZIP export
+- Allow reopening an exported ZIP
+- Allow sharing a preview link
+- Show a clear message that local browser projects may not sync to another device unless cloud account storage is enabled
+
+## Backend and security
+
+Use real server-side managed AI services. Do not place API keys in browser code.
+
+Validate:
+
+- User text length
+- File type
+- File size
+- Image size
+- Document size
+- Unsafe or malformed project imports
+
+Use safe errors for:
+
+- Missing AI configuration
+- Network failure
+- Timeout
+- Rate limit
+- Invalid upload
+- AI response failure
+- Truncated or malformed structured response
+
+Do not expose stack traces, private credentials or internal server details to users.
+
+## Quality requirements
+
+- Preserve all existing working ABHISHEK AI modules while adding features.
+- Do not replace working Notes AI with fake demo content.
+- Do not hardcode one chapter.
+- Do not add decorative controls that have no action.
+- Do not claim deployment when only a preview exists.
+- Do not say a website was successfully created if the AI request failed.
+- Make all error, loading and retry states visible.
+- Use “Created by Abhishek” branding.
+- Keep the experience suitable and understandable for a Class 8 student.
+- Make the application look premium and reliable.
+
+## Final acceptance test
+
+Before declaring the application ready, test these different website-builder prompts:
+
+1. Create a working calculator.
+2. Create a Class 8 Science quiz with score and timer.
+3. Create a portfolio website for Abhishek.
+4. Create a website about the Magical Brush chapter.
+5. Add a new button to an existing generated project.
+6. Change the colour and make the project mobile-friendly.
+7. Export the project as ZIP and reopen it.
+8. Open the shared preview link in a fresh browser context.
+
+The result must be a working AI website-building assistant inside ABHISHEK AI, not just a visual mockup.
